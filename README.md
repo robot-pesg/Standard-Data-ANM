@@ -13,7 +13,7 @@ For navigation algorithm testing in large-scale **Office Building** and **Reside
 
 ## SEIEE Datasets: 
 
-$${\color{lightgreen}10sequences \space 6.3km \space 21140m<sup>2</sup>}$$
+> [!10sequences \space 6.3km \space 21140m<sup>2</sup>]
 
 * **Timeslots**: `Night` `Afternoon`
 * **Challenges**: `Low-texture` `Degradation` `Lighting Change`
