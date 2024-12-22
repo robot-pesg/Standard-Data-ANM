@@ -9,13 +9,13 @@ The development of intelligent Vehicles (IVs) requires extensive standard datase
 
 # News!!!
 ### We introduce two new datasets into our standard dataset community: SEIEE + YULAN
-For navigation performance testing in large-scale **Office Building** and **Residential Block** scenarios respectively.
+For navigation algorithm testing in large-scale **Office Building** and **Residential Block** scenarios respectively.
 
 ## SEIEE Sequences
 
-### Challenges: Low-texture, Degradation, Lighting Change
-### Senarios: Long Corridor, White Wall, Reflective Floor
-### Sensors: Stereo Vision, Spining+MEMS LiDAR, IMU, Wheel Odom
+* **Challenges**: `Low-texture` `Degradation` `Lighting Change`
+* **Senarios**: `Long Corridor` `White Wall` `Reflective Floor`
+* **Sensors**: `Stereo Vision` `Spining+MEMS LiDAR` `IMU` `Wheel Odom`
 
 Stat/Sequence|1010-00|1010-01|1010-02|1010-03|1010-04
 :--:|:--:|:--:|:--:|:--:|:--:
