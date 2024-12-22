@@ -7,12 +7,12 @@
 ## Abstract: 
 The development of intelligent Vehicles (IVs) requires extensive standard datasets for training, benchmarking, and improvement. Autonomous Navigation and Mapping (ANM), as a critical technology for IVs, imposes exceptionally high demands on dataset construction. This is significant in its requirements for comprehensive sensor calibration, precise time synchronization, and accurate generation of ground truth. Besides, the whole construction workflow also demands intricate knowledge and sophisticated practices, necessitating lengthy learning curves for researchers to attain proficiency. The above challenges have led to a slow production of qualified datasets, directly constraining the advancement of ANM. However, so far, an investigation focused on a mature construction methodology of ANM dataset is still missing. This paper strives to fill the gap. Specifically, based on our systematic reviews and extensive practices, for the first time, a full-stack construction methodology of ANM dataset is proposed, including modules of platform construction, sensor calibration, time synchronization, ground truth generation, synthetic data production, and benchmark criteria, with detailed techniques and methodological routes provided in each step. Several long-standing issues are resolved within the methodology. Importantly, we introduce versatile calibration and synchronization frameworks that attain up to us-level and mm-level precision. Besides, we propose a full-scenario ground truth system that can generate scene-map and trajectory at cm-level accuracy. To verify the effectiveness of our methodology, we design a high-quality dataset and benchmark multiple state-of-the-art algorithms on it. The successful workflow demonstrates that our methodology can significantly reduce the research threshold and help individuals and institutions to construct datasets in a standardized way.
 
-# News!!!
+# News!!! 2024-12
 ### We introduce two new datasets into our standard dataset community: SEIEE + YULAN
-For navigation algorithm testing in large-scale **Office Building** and **Residential Block** scenarios respectively.
 
-## SEIEE Datasets: 10seqs, 6.3km, 21140m<sup>2</sup>
+## SEIEE Datasets: Office Building (indoor)
 
+* **Specifications**: **10 sequences**, **6.3 km**, **21140 m<sup>2</sup>**
 * **Timeslots**: `Night` `Afternoon`
 * **Challenges**: `Low-texture` `Degradation` `Lighting Change`
 * **Senarios**: `Long Corridor` `White Wall` `Reflective Floor`
@@ -57,4 +57,53 @@ GT 3D Scanner | Leica RTC360 | 130m range, 1mm+10ppm accuracy
 <img src="./pics/photo_pairs/seiee/sem/seiee_sem_06.png" alt="photo" width="30%" />
 <img src="./pics/photo_pairs/seiee/sem/seiee_sem_07.png" alt="photo" width="30%" />
 <img src="./pics/photo_pairs/seiee/sem/seiee_sem_08.png" alt="photo" width="30%" />
+</div>
+
+## YULAN Datasets: Residential Community (outdoor)
+
+* **Specifications**: **14 sequences**, **9.4 km**, **32665 m<sup>2</sup>**
+* **Timeslots**: `Noon` `Afternoon`
+* **Challenges**: `GNSS-Denied` `Dynamics`
+* **Senarios**: `Dense Building` `Road` `Court` `Car` `Person`
+* **Sensors**: `Stereo Vision` `Spining+MEMS LiDAR` `IMU` `Wheel Odom`
+
+Stat/Sequence|1008-00|1008-01|1008-02
+:--:|:--:|:--:|:--:|:--:|:--:
+Size/GB|25.9/5.0|36.6/6.9|36.3/6.9
+Distance/m|665.8|952.1|932.5
+Duration/s|511.4|721.6|711.0
+VLIO-rosbag|[onedrive]() [baidu](https://pan.baidu.com/s/1bFsLGj4OQZmeNAdku7SXpQ?pwd=sjtu)|[onedrive]() [baidu](https://pan.baidu.com/s/1IhcZPkvy1QMV2bKDbNc_vQ?pwd=sjtu)|[onedrive]() [baidu](https://pan.baidu.com/s/1PlJLajKHAYs1851zGhfWdQ?pwd=sjtu)
+LIO-rosbag|[onedrive]() [baidu](https://pan.baidu.com/s/1pRFsUCb7lYqqhUhD-ctrLA?pwd=sjtu)|[onedrive]() [baidu](https://pan.baidu.com/s/10-tbexKqpz8VyZWr3--WSA?pwd=sjtu)|[onedrive]() [baidu](https://pan.baidu.com/s/1TZ-8F1XMKZS0wybhn2ne5A?pwd=sjtu)
+GT-pose|[onedrive]() [baidu](https://pan.baidu.com/s/1W6Xx2tZW1M6kzXZQBDLneg?pwd=sjtu)|[onedrive]() [baidu](https://pan.baidu.com/s/1TFvYsnbqIWyeTO13ddPK1g?pwd=sjtu)|[onedrive]() [baidu](https://pan.baidu.com/s/16xjsAMstuvUIySO30KsfXA?pwd=sjtu)
+
+Sensor/Device|Model|Specification
+:--:|:--:|:--:
+Gray Stereo | DALSA M1930 | 1920*1200, 2/3", 71°×56°FoV, 40Hz
+RGB Stereo | DALSA C1930 | 1920*1200, 2/3", 71°×56°FoV, 40Hz
+LiDAR | Velodyne VLP16 | 16C, 360°×30°FoV, ±3cm@100m, 10Hz
+MEMS LiDAR | Livox AVIA | 70°×77°FoV, ±2cm@200m, 10Hz
+D-GNSS/INS | Xsens Mti-680G | 9-axis, 400Hz, GNSS not in use
+Consumer IMU | BMI088 | 6-axis, 200Hz, Livox built-in
+Wheel Encoder | Scout V1.0 | 4WD, 3-axis, 200Hz
+GT 3D Scanner | Leica RTC360 | 130m range, 1mm+10ppm accuracy
+
+<div align="left">
+<img src="./pics/photo_pairs/yulan/cam/yulan_rgb_00.jpg" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/yulan/cam/yulan_rgb_01.jpg" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/yulan/cam/yulan_rgb_02.jpg" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/yulan/sem/yulan_sem_00.png" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/yulan/sem/yulan_sem_01.png" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/yulan/sem/yulan_sem_02.png" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/yulan/cam/yulan_rgb_03.jpg" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/yulan/cam/yulan_rgb_04.jpg" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/yulan/cam/yulan_rgb_05.jpg" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/yulan/sem/yulan_sem_03.png" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/yulan/sem/yulan_sem_04.png" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/yulan/sem/yulan_sem_05.png" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/yulan/cam/yulan_rgb_06.jpg" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/yulan/cam/yulan_rgb_07.jpg" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/yulan/cam/yulan_rgb_08.jpg" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/yulan/sem/yulan_sem_06.png" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/yulan/sem/yulan_sem_07.png" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/yulan/sem/yulan_sem_08.png" alt="photo" width="30%" />
 </div>
