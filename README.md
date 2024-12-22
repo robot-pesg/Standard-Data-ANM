@@ -7,9 +7,13 @@
 ## Abstract: 
 The development of intelligent Vehicles (IVs) requires extensive standard datasets for training, benchmarking, and improvement. Autonomous Navigation and Mapping (ANM), as a critical technology for IVs, imposes exceptionally high demands on dataset construction. This is significant in its requirements for comprehensive sensor calibration, precise time synchronization, and accurate generation of ground truth. Besides, the whole construction workflow also demands intricate knowledge and sophisticated practices, necessitating lengthy learning curves for researchers to attain proficiency. The above challenges have led to a slow production of qualified datasets, directly constraining the advancement of ANM. However, so far, an investigation focused on a mature construction methodology of ANM dataset is still missing. This paper strives to fill the gap. Specifically, based on our systematic reviews and extensive practices, for the first time, a full-stack construction methodology of ANM dataset is proposed, including modules of platform construction, sensor calibration, time synchronization, ground truth generation, synthetic data production, and benchmark criteria, with detailed techniques and methodological routes provided in each step. Several long-standing issues are resolved within the methodology. Importantly, we introduce versatile calibration and synchronization frameworks that attain up to us-level and mm-level precision. Besides, we propose a full-scenario ground truth system that can generate scene-map and trajectory at cm-level accuracy. To verify the effectiveness of our methodology, we design a high-quality dataset and benchmark multiple state-of-the-art algorithms on it. The successful workflow demonstrates that our methodology can significantly reduce the research threshold and help individuals and institutions to construct datasets in a standardized way.
 
-### News: We contribute two new datasets into our standard dataset community-SEIEE and YULAN, for navigation performance testing in large-scale Office Building and Residential Block scenarios respectively.
+## News!!!
+### We contribute two new datasets into our standard dataset community-SEIEE and YULAN, for navigation performance testing in large-scale Office Building and Residential Block scenarios respectively.
 
 ## SEIEE Sequences
+
+KeyWords: Low-texture, Degradation, Lighting Change
+Senarios: Long Corridor, White Wall, Reflective Floor
 
 Stat/Sequence|1010-00|1010-01|1010-02|1010-03|1010-04
 :--:|:--:|:--:|:--:|:--:|:--:
