@@ -11,9 +11,7 @@ The development of intelligent Vehicles (IVs) requires extensive standard datase
 ### We introduce two new datasets into our standard dataset community: SEIEE + YULAN
 For navigation algorithm testing in large-scale **Office Building** and **Residential Block** scenarios respectively.
 
-## SEIEE Datasets: 
-
-> [!NOTE]10sequences, 6.3km, 21140m<sup>2</sup>
+## SEIEE Datasets: 10seqs, 6.3km, 21140m<sup>2</sup>
 
 * **Timeslots**: `Night` `Afternoon`
 * **Challenges**: `Low-texture` `Degradation` `Lighting Change`
