@@ -107,3 +107,17 @@ GT 3D Scanner | Leica RTC360 | 130m range, 1mm+10ppm accuracy
 <img src="./pics/photo_pairs/yulan/sem/yulan_sem_07.png" alt="photo" width="30%" />
 <img src="./pics/photo_pairs/yulan/sem/yulan_sem_08.png" alt="photo" width="30%" />
 </div>
+
+## Citation
+If our efforts support your research, please cite: <br />
+
+
+```
+@ARTICLE{liu2024standarddata,
+  author={Liu, Yuanzhi and Fu, Yujia and Qin, Minghui and Xu, Yufeng and Cui, Bin and Liu, Kunhua and Chen, Fengdong and Tao, Wei and Vlaminck, Michiel and Goossens, Bart and Sun, Poly Z.H. and Zhao, Hui},
+  journal={IEEE Transactions on Intelligent Vehicles}, 
+  title={Standard Datasets for Autonomous Navigation and Mapping: A Full-Stack Construction Methodology}, 
+  year={2024},
+  pages={1-24},
+  doi={10.1109/TIV.2024.3360273}}
+```
