@@ -13,8 +13,9 @@ For navigation performance testing in large-scale **Office Building** and **Resi
 
 ## SEIEE Sequences
 
-### KeyWords: Low-texture, Degradation, Lighting Change
+### Challenges: Low-texture, Degradation, Lighting Change
 ### Senarios: Long Corridor, White Wall, Reflective Floor
+### Sensors: Stereo Vision, Spining+MEMS LiDAR, IMU, Wheel Odom
 
 Stat/Sequence|1010-00|1010-01|1010-02|1010-03|1010-04
 :--:|:--:|:--:|:--:|:--:|:--:
@@ -22,6 +23,17 @@ Size/GB|24.3/4.8|25.0/5.1|26.3/5.3|41.7/8.2|13.8/2.9
 VLIO-rosbag|[onedrive](https://1drv.ms/u/s!AhiXYfoNKvqcgR8OD_GYDqwF4fUv?e=eZ3tKb) [baidu](https://pan.baidu.com/s/1SsSHVatM52tmVIb9c2JQCA?pwd=sjtu)|[onedrive](https://1drv.ms/u/s!AhiXYfoNKvqcgR5NdkVvv5-jwg9S?e=BpTw3M) [baidu](https://pan.baidu.com/s/1e1nvLn6kNRXW_8ZkAF-DUw?pwd=sjtu)|[onedrive](https://1drv.ms/u/s!AhiXYfoNKvqcgSIMMHWnaIRWOQEh?e=1fTNoL) [baidu](https://pan.baidu.com/s/1LrHyfvJAxyBma82iGaVL7g?pwd=sjtu)|[onedrive](https://1drv.ms/u/s!AhiXYfoNKvqcgSC5ZoiW8ff5VxW1?e=RBOYIK) [baidu](https://pan.baidu.com/s/1NohF3MTXmjfKZNMEn3hVdA?pwd=sjtu)|[onedrive](https://1drv.ms/u/s!AhiXYfoNKvqcgSFxGk-1Y0cnuzGi?e=0L8HcO) [baidu](https://pan.baidu.com/s/1m37eIgWroUVa9jBSDw4NQA?pwd=sjtu)
 LIO-rosbag|[onedrive](https://1drv.ms/u/s!AhiXYfoNKvqcgQ_K8PgFz_LvzIiZ?e=PQdgRs) [baidu](https://pan.baidu.com/s/1olc4R9P04dEz8XRQicdWfg?pwd=sjtu)|[onedrive](https://1drv.ms/u/s!AhiXYfoNKvqcgRXMxjKNsiS-zBZ5?e=75pZVv) [baidu](https://pan.baidu.com/s/1dxjVL6SKLWYkGeObFeWyjQ?pwd=sjtu)|[onedrive](https://1drv.ms/u/s!AhiXYfoNKvqcgRd_2k4zpH111fZ8?e=w6xjtp) [baidu](https://pan.baidu.com/s/1rg0p53cHUlwh0HN-hMT70w?pwd=sjtu)|[onedrive](https://1drv.ms/u/s!AhiXYfoNKvqcgRNIbWeKNmQY2WM2?e=5LycAJ) [baidu](https://pan.baidu.com/s/1PIhjam4ld3sIvGiQ6t1bSA?pwd=sjtu)|[onedrive](https://1drv.ms/u/s!AhiXYfoNKvqcgRDbU7qgJKgHbHab?e=94tdSe) [baidu](https://pan.baidu.com/s/1ss1E3gMQeLkF1dYAPgsNEQ?pwd=sjtu)
 GT-pose|onedrive [baidu](https://pan.baidu.com/s/1w6-pZgiYUuayqVNZ06AjLw?pwd=sjtu)|onedrive [baidu](https://pan.baidu.com/s/1FZ4B9lHqvmAEp7Bu6sWBHQ?pwd=sjtu)|onedrive [baidu](https://pan.baidu.com/s/1KaC7Jv9AIiKbyk4if9aWjw?pwd=sjtu)|onedrive [baidu](https://pan.baidu.com/s/1JeRKOwvSYJtVxuQSJL5Z7g?pwd=sjtu)|onedrive [baidu](https://pan.baidu.com/s/1FRSdtV0A47cnMfL5BcHeBg?pwd=sjtu)
+
+Sensor/Device|Model|Specification
+:--:|:--:|:--:
+Gray Stereo | DALSA M1930 | 1920*1200, 2/3", 71°×56°FoV, 40Hz
+RGB Stereo | DALSA C1930 | 1920*1200, 2/3", 71°×56°FoV, 40Hz
+LiDAR | Velodyne VLP16 | 16C, 360°×30°FoV, ±3cm@100m, 10Hz
+MEMS LiDAR | Livox AVIA | 70°×77°FoV, ±2cm@200m, 10Hz
+D-GNSS/INS | Xsens Mti-680G | 9-axis, 400Hz, GNSS not in use
+Consumer IMU | BMI088 | 6-axis, 200Hz, Livox built-in
+Wheel Encoder | Scout V1.0 | 4WD, 3-axis, 200Hz
+GT 3D Scanner | Leica RTC360 | 130m range, 1mm+10ppm accuracy
 
 <div align="left">
 <img src="./pics/photo_pairs/seiee/cam/seiee_rgb_00.jpg" alt="photo" width="30%" />
