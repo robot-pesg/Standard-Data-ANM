@@ -68,7 +68,7 @@ GT 3D Scanner | Leica RTC360 | 130m range, 1mm+10ppm accuracy
 * **Sensors**: `Stereo Vision` `Spining+MEMS LiDAR` `IMU` `Wheel Odom`
 
 Stat/Sequence|1008-00|1008-01|1008-02
-:--:|:--:|:--:|:--:|:--:|:--:
+:--:|:--:|:--:|:--:
 Size/GB|25.9/5.0|36.6/6.9|36.3/6.9
 Distance/m|665.8|952.1|932.5
 Duration/s|511.4|721.6|711.0
