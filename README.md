@@ -18,3 +18,23 @@ VLIO-rosbag|onedrive [baidu](https://pan.baidu.com/s/1SsSHVatM52tmVIb9c2JQCA?pwd
 LIO-rosbag|[onedrive](https://1drv.ms/u/s!AhiXYfoNKvqcgQ_K8PgFz_LvzIiZ?e=PQdgRs) [baidu](https://pan.baidu.com/s/1olc4R9P04dEz8XRQicdWfg?pwd=sjtu)|[onedrive](https://1drv.ms/u/s!AhiXYfoNKvqcgRXMxjKNsiS-zBZ5?e=75pZVv) [baidu](https://pan.baidu.com/s/1dxjVL6SKLWYkGeObFeWyjQ?pwd=sjtu)|[onedrive](https://1drv.ms/u/s!AhiXYfoNKvqcgRd_2k4zpH111fZ8?e=w6xjtp) [baidu](https://pan.baidu.com/s/1rg0p53cHUlwh0HN-hMT70w?pwd=sjtu)|[onedrive](https://1drv.ms/u/s!AhiXYfoNKvqcgRNIbWeKNmQY2WM2?e=5LycAJ) [baidu](https://pan.baidu.com/s/1PIhjam4ld3sIvGiQ6t1bSA?pwd=sjtu)|[onedrive](https://1drv.ms/u/s!AhiXYfoNKvqcgRDbU7qgJKgHbHab?e=94tdSe) [baidu](https://pan.baidu.com/s/1ss1E3gMQeLkF1dYAPgsNEQ?pwd=sjtu)
 GT-pose|onedrive baidu|onedrive baidu|onedrive baidu|onedrive baidu|onedrive baidu
 
+<div align="left">
+<img src="./pics/photo_pairs/seiee/cam/seiee_rgb_00.jpg" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/seiee/cam/seiee_rgb_01.jpg" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/seiee/cam/seiee_rgb_02.jpg" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/seiee/sem/seiee_sem_00.jpg" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/seiee/sem/seiee_sem_01.jpg" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/seiee/sem/seiee_sem_02.jpg" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/seiee/cam/seiee_rgb_03.jpg" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/seiee/cam/seiee_rgb_04.jpg" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/seiee/cam/seiee_rgb_05.jpg" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/seiee/sem/seiee_sem_03.jpg" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/seiee/sem/seiee_sem_04.jpg" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/seiee/sem/seiee_sem_05.jpg" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/seiee/cam/seiee_rgb_06.jpg" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/seiee/cam/seiee_rgb_07.jpg" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/seiee/cam/seiee_rgb_08.jpg" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/seiee/sem/seiee_sem_06.jpg" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/seiee/sem/seiee_sem_07.jpg" alt="photo" width="30%" />
+<img src="./pics/photo_pairs/seiee/sem/seiee_sem_08.jpg" alt="photo" width="30%" />
+</div>
