@@ -12,10 +12,6 @@ The development of intelligent Vehicles (IVs) requires extensive standard datase
 For navigation algorithm testing in large-scale **Office Building** and **Residential Block** scenarios respectively.
 
 ## SEIEE Datasets: 10 sequences, 6.3 km, 21140 m<sup>2</sup>
-<h2>
-  <span style="color:blue;">SEIEE Datasets: </span>
-  <span style="color:red;">10 sequences, 6.3 km, 21140 m<sup>2</sup></span>
-</h2>
 
 * **Timeslots**: `Night` `Afternoon`
 * **Challenges**: `Low-texture` `Degradation` `Lighting Change`
